@@ -1,0 +1,56 @@
+/* ==UserStyle==
+@name           Dracula for Readwise Reader
+@namespace      github.com/dracula
+@version        1.0
+@description    A dark theme for Readwise Reader
+@homepageURL    URL-to-do
+@supportURL     https://github.com/raminhossaini/Readwise-Reader/issues
+@author         Ramin Hossaini (https://github.com/raminhossaini)
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("read.readwise.io") {
+    
+    html:root.theme--dark *{
+        
+        --background-primary: #282a36;
+        --background-primary-5-lighter: #313342;
+        --background-primary-10-lighter: #3a3d4e;
+        --background-secondary: #21222c;
+        --background-tertiary: #191a21;
+        --current-line: #44475a;
+        --current-line-25-lighter: #6a6f8c;
+        --foreground: #f8f8f2;
+        --comment: #6272a4;
+        --cyan: #8be9fd;
+        --green: #50fa7b;
+        --orange: #ffb86c;
+        --pink: #ff79c6;
+        --purple: #bd93f9;
+        --purple-15-darker: #9b5bf6;
+        --purple-25-darker: #8435f4;
+        --red: #ff5555;
+        --red-25-darker: #ff3333;
+        --yellow: #f1fa8c;
+
+        /* Non-Standard Color: center between primary background and gray (#808080) */
+        --disabled: #505158;
+        /* Non-Standard Color: lerped between purple (15% darker) and gray (#808080) */
+        --purple-disabled: #8776a0;
+        /* Non-Standard Color: lerped between foreground (75%) and gray (#808080, 25%) */
+        --foreground-disabled: #dadad5;
+
+        --accent-color: var(--purple);        
+        
+                
+        --content-background-color: var(--background-primary) !important;
+        --sidebar-background: var(--background-secondary) !important;
+        --default-blurred-button-background: var(--purple-15-darker) !important;
+        --u-alpha-100: var(--purple-25-darker) !important;
+        --u-alpha-200: var(--purple-15-darker) !important;
+        --text-interactive: var(--purple-15-darker) !important;
+            
+        scrollbar-color: var(--purple) var(--background-primary-5-lighter)  !important;
+    }
+    
+}

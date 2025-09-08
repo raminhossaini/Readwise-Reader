@@ -1,19 +1,13 @@
-### [Foobar](https://foobar.com)
+### [Readwise Reader](https://read.readwise.io)
 
-#### Install using Git
+#### Install using Stylus
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
+Install Stylus for [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), or [Opera](https://addons.opera.com/pt-br/extensions/details/stylus/)
 
-```bash
-git clone https://github.com/dracula/foobar.git
-```
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](URL to style.user.css comes here)
 
 #### Install manually
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+Download using the [GitHub .zip download](URL to release ZIP comes here) option and unzip the archive.
+Then, manually inject the `style.user.css` file into Readwise Reader.
 
-#### Activating theme
-
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨

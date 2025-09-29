@@ -1,14 +1,3 @@
-/* ==UserStyle==
-@name           Dracula for Readwise Reader
-@namespace      github.com/dracula
-@version        1.0
-@description    A dark theme for Readwise Reader
-@homepageURL    URL-to-do
-@supportURL     https://github.com/raminhossaini/Readwise-Reader/issues
-@author         Ramin Hossaini (https://github.com/raminhossaini)
-@license        MIT
-==/UserStyle== */
-
 @-moz-document domain("read.readwise.io") {
     
     html:root.theme--dark *{
@@ -39,16 +28,16 @@
         --purple-disabled: #8776a0;
         /* Non-Standard Color: lerped between foreground (75%) and gray (#808080, 25%) */
         --foreground-disabled: #dadad5;
-
         --accent-color: var(--purple);        
-        
-                
         --content-background-color: var(--background-primary) !important;
         --sidebar-background: var(--background-secondary) !important;
         --default-blurred-button-background: var(--purple-15-darker) !important;
         --u-alpha-100: var(--purple-25-darker) !important;
         --u-alpha-200: var(--purple-15-darker) !important;
         --text-interactive: var(--purple-15-darker) !important;
+        
+        --document-card-background: var(--background-primary-10-lighter) !important;
+        --document-card-background--hover: var(--comment) !important;
             
         scrollbar-color: var(--purple) var(--background-primary-5-lighter)  !important;
     }

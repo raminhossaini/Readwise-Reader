@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/foobar](https://draculatheme.com/readwise-reader).
+All instructions can be found at [https://draculatheme.com/readwise-reader](https://draculatheme.com/readwise-reader).
 
 ## Team
 
